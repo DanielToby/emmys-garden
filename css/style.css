@@ -1,0 +1,56 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #222;
+}
+
+/* Sticky top navigation */
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+header a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  padding: 4rem 0;
+  scroll-margin-top: 70px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+section p {
+  max-width: 60ch;
+  margin-bottom: 1rem;
+}
