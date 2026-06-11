@@ -40,6 +40,7 @@ h1 {
 .hero-wrapper {
   position: relative;
   max-width: 600px;
+  min-width: 600px;
   margin: 0 auto;
 }
 
@@ -67,6 +68,7 @@ h1 {
   color: #7D012F;
   text-decoration: none;
   letter-spacing: 0.05em;
+  line-height: 0.8;
 }
 
 .nav-link:hover {
